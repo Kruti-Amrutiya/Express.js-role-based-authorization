@@ -14,29 +14,6 @@ This is a backend API that implements **role-based access control (RBAC)** using
 
 ---
 
-## 📁 Project Structure
-
-.
-├── config
-│   └── dbConnect.js
-├── controllers
-│   └── authController.js
-├── index.js
-├── middlewares
-│   ├── authMiddleware.js
-│   └── roleMiddleware.js
-├── models
-│   └── userModel.js
-└── routes
-│   │── authRoutes.js
-│   └── userRoutes.js
-├── .env
-├── .gitignore
-├── server.js
-└── README.md
-
----
-
 ## ⚙️ Tech Stack
 
 - Node.js
@@ -61,3 +38,7 @@ This is a backend API that implements **role-based access control (RBAC)** using
 PORT=3000
 JWT_SECRET=your_jwt_secret
 CONNECTION_STRING=your_mongodb_connection_string
+
+## 📖 License
+
+This project is open-source under the MIT License.
