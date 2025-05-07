@@ -1,6 +1,6 @@
 # 🛡️ Role-Based Authorization API with Node.js, Express & MongoDB
 
-This is a backend API that implements **role-based access control (RBAC)** using Node.js, Express, MongoDB, and JWT for authentication. It allows secure user management based on roles like **Admin**, **User**, and **Moderator**.
+This is a backend API that implements **role-based access control (RBAC)** using Node.js, Express, MongoDB, and JWT for authentication. It allows secure user management based on roles like **Admin**, **User**, and **Manager**.
 
 ---
 
@@ -35,9 +35,9 @@ This is a backend API that implements **role-based access control (RBAC)** using
 
 ## 📦 Environment Variables
 
-PORT=3000
-JWT_SECRET=your_jwt_secret
-CONNECTION_STRING=your_mongodb_connection_string
+- PORT=3000
+- JWT_SECRET=your_jwt_secret
+- CONNECTION_STRING=your_mongodb_connection_string
 
 ## 📖 License
 
